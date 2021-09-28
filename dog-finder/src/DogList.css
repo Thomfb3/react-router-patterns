@@ -1,0 +1,34 @@
+.DogList {
+    text-align: center;
+}
+.DogList a {
+    color: rgb(0, 81, 255);
+    text-decoration: none;
+}
+
+.DogList-list {
+    display: flex;
+    justify-content: center;
+}
+
+.DogList-dog {
+    margin: 30px;
+    border: 1px solid rgb(203, 203, 203);
+    border-radius: 15px;
+    box-shadow: 0px 0px 0px rgba(0,0,0,0);
+    transition: all .15s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    overflow: hidden;
+}
+
+.DogList-dog-name {
+    text-decoration: none;
+}
+
+.DogList-dog:hover {
+    box-shadow: 0px 0px 20px rgba(0,0,0,.3);
+}
+
+
+.DogList-dog-image {
+    width: 200px;
+}

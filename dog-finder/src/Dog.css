@@ -1,0 +1,21 @@
+.Dog {
+    text-align: center;
+}
+
+.Dog-container {
+    display: flex;
+    margin-top: 100px;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.Dog-image img {
+    width: 400px;
+}
+
+.Dog-info {
+   padding: 30px;
+}
+
+
+

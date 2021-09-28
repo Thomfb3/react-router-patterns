@@ -1,0 +1,35 @@
+.ColorForm-background {
+    background-color: rgb(31, 31, 31);
+    height: 100vh;
+    width: 100%;
+}
+
+.ColorForm {
+    width: 500px;
+    margin: auto;
+    position: relative;
+    top: 170px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+
+.ColorForm input {
+    margin: 10px;
+}
+
+
+.ColorForm-submit {
+    background-color: tomato;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: all .3s ease;
+    border: none;
+}
+
+.ColorForm-submit:hover {
+    background-color: rgb(230, 81, 54);
+}
